@@ -13,7 +13,7 @@ public class CardIssueTest {
     private WebDriver driver;
 
     @BeforeAll
-    public static void setUp() {
+    public static void setupAll() {
         WebDriverManager.chromedriver().setup();
     }
 
