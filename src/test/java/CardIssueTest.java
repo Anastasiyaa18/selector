@@ -36,7 +36,7 @@ public class CardIssueTest {
 
 
     @Test
-    void applicationForCardIssue() {
+    public void applicationForCardIssue() {
         driver.findElement(By.cssSelector("[data-test-id='name'] input")).sendKeys("Грибов Сергей");
         driver.findElement(By.cssSelector("[data-test-id='phone'] input")).sendKeys("+79808556335");
         driver.findElement(By.cssSelector("[data-test-id='agreement']")).click();
